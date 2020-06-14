@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		fieldset{
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Payment form</h1>
+	<p>Required fields are followed by .*.</p>
+
+	<form action="" method="POST">
+		<h2>Contact information</h2>
+		<fieldset>
+			<legend>Title</legend>
+			<ul>
+				<li><input type="radio" name="sex">Mister</li>
+				<li><input type="radio" name="sex">Miss</li>
+			</ul>
+		</fieldset>
+		<p>Name：<input type="text" name="username"></p>
+		<p>E-Mail：<input type="text" name="email"></p>
+		<p>Password：<input type="password" name="password"></p>
+
+		<h2>Payment information</h2>
+		<p>
+			Card Type：
+			<select>
+				<option value ="volvo">Visa</option>
+				<option value ="saab">Saab</option>
+				<option value="opel">Opel</option>
+				<option value="audi">Audi</option>
+			</select>
+		</p>
+		<p>Card Number：<input type="text" name="cardNumber"></p>
+		<p>Expairation date：formatted as mm/yy<input type="date" name="date" value="yyyy-mm-dd"></p>
+		<p><button type="submit">Valldate the payment</button></p>
+	</form>
+
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+html,body {
+	height: 100%;
+}
+
+/*上半部分布局*/
+
+.top {
+	width: 100%;
+	height: 70%;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;	
+}
+
+.nav {
+	margin-right: 60px;
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+}
+
+ol li {
+	float: left;
+	margin-right: 40px;
+	list-style-type: none;
+}
+
+.header{
+	margin-left: 100px;
+	margin-top: 30px;
+	float: left;
+}
+
+.person{
+	float: left;
+	margin-top: 5%;
+	margin-left: 40%;
+	text-align: center;
+}	
+
+img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.name {
+	font-size: 2rem;
+}
+
+.goal {
+	font-weight: bold;
+}
+
+.person button {
+	width: 8rem;
+	height: 2rem;
+	margin-top: 1rem;
+	margin-right: 0.3rem;
+	background-color: #3C8B47;
+	color: white;
+	border-width: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+button {
+	cursor: pointer;
+	transition: all 0.3s;
+}
+button:hover {
+	transform: scale(1.2);
+}
+
+
+/*下半部分布局*/
+
+.bottom {
+	width: 90%;
+	height: 90%;	
+	margin: 5% 5%;
+	border: solid 1px #E9EAE9;
+	font-family: Verdana,Serif,Monospace;
+	background-color: #96CDCD;
+	box-shadow: #E9EAE9 0px 0px 10px;
+}
+
+.ltop,.rtop,.lbottom,.rbottom {
+	padding: 2% 2%;
+}
+
+.ltop {
+	float: left;
+	width: 46%;
+	height: 46%;
+}
+
+.rtop {
+	float: right;
+	width: 46%;
+	height: 46%;
+}
+
+.lbottom {
+	float: left;
+	width: 46%;
+	height: 46%;
+}
+
+.rbottom {
+	float: right;
+	width: 46%;
+	height: 46%;
+}
+
+.context-head {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.context {
+	margin-top: 2rem;
+}
+
+.table {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-template-rows: repeat(4,50%);
+}
+
+.label {
+	font-weight: bold;
+}

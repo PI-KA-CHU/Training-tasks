@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div[title] {
+			color: red;
+		}
+
+		div[title="demo"] {
+			color: green;
+		}
+
+		div[title*=demo] {
+			color: blue;
+		}
+
+		div[title^=zh] {
+			color: gray;
+		}
+	</style>
+</head>
+<body>
+	<div title="demo">demo</div>
+	<div title="demo1">demo1</div>
+	<div title="1demo">1demo</div>
+	<div title="zh">zh</div>
+	<div title="zh2">zh2</div>
+	<div title="hzzz">hzzz</div>
+	<div title="zhzh">zhzh</div>
+	<div>no title</div>
+	<div>no title</div>
+	<div>no title</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		li {
+			list-style-type: none;
+			margin-top: 20px;
+		}
+
+		input{
+			margin-left: 10px;
+		}
+
+		.main-form{
+			width: 600px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="main-form">
+		<form>
+			<ul type="disc">
+				<li>
+					<h1>Siwo Credit Card Application Form</h1><hr>
+				</li>
+				<li>
+					<h2>Customer Information</h2>
+				</li>
+				<li>
+					<label>Title</label>
+					<div class="radio">
+						<span><input type="radio" name="title">Mr.</span>
+						<span><input type="radio" name="title">Mrs.</span>
+						<span><input type="radio" name="title">Miss.</span>
+					</div>
+				</li>
+				<li>
+					<label>Full Name</label>
+					<input type="text" name="firstName" placeholder="first name">
+					<input type="text" name="lastName" placeholder="last name">
+				</li>
+				<li>
+					<label>Gender</label>
+					<div class="radio">
+						<span><input type="radio" name="gender">Male</span>
+						<span><input type="radio" name="gender">Female</span>
+					</div>
+				</li>
+				<li>
+					<label>Date of Birth</label>
+					<input type="date" name="date">
+				</li>
+				<li>
+					<label>Marital Status</label>
+					<div class="radio">
+						<span><input type="radio" name="status">Single</span>
+						<span><input type="radio" name="status">Married</span>
+						<span><input type="radio" name="status">Divorced</span>
+						<span><input type="radio" name="status">Window(er)</span>
+					</div>
+				</li>
+				<li>
+					<label>E-mail</label>
+					<input type="text" name="email" placeholder="example@example.com">
+				</li>
+				<li>
+					<label>Phone Number</label>
+					<input type="text" name="phone" pattern="[0-9]">
+				</li>
+				<li>
+					<label>Residential Address</label>
+					<input type="text" name="address">
+				</li>
+				<li>
+					<label>Do you have a dual citizenship?</label>
+					<div class="radio">
+						<span><input type="radio" name="ship">Yes</span>
+						<span><input type="radio" name="ship">No</span>
+					</div>
+				</li>
+				<li>
+					<label>Country of dual citizenship</label>
+					<select>
+						<option value ="volvo">CN</option>
+						<option value ="saab">US</option>
+						<option value="opel">JP</option>
+						<option value="audi">UK</option>
+					</select>
+				</li>
+				<li>
+					<hr>
+					<button type="submit">提交</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</body>
+</html>
